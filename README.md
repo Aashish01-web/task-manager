@@ -15,7 +15,7 @@ Delete Task
 
 
 PUT
-/crud/tasks/{task_id}\n
+/crud/tasks/{task_id}
 Update Task
 
 POST
