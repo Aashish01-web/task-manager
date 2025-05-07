@@ -5,7 +5,7 @@ import socket
 host = os.getenv("POSTGRES_HOST", "db")
 port = int(os.getenv("POSTGRES_PORT", 5432))
 
-print(f"🔄 Waiting for PostgreSQL at {host}:{port}...")
+print(f" Waiting for PostgreSQL at {host}:{port}...")
 
 while True:
     try:
